@@ -30,12 +30,23 @@ include('koneksi.php');
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary px-4">
-        <a class="navbar-brand" href="#">Web Tracer STMIK</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="container w-100">
+            <div class="row">
+                <div class="col">
+                    <a class="navbar-brand" href="#">Web Tracer STMIK</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="login.php" class="btn btn-secondary">Login Super Administrator</a>
+                </div>
+            </div>
         </div>
     </nav>
     <div class="container">
